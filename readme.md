@@ -2,16 +2,21 @@
 ---
 ***
 Консольный калькулятор, вычисляющий выражения, состоящие из простейших арифметических операций (+, -, *, /, скобки)
+
 Написано с использованием фреймворка .net Core, для тестирования используется фреймворк NUnit 
+
 Калькулятор основан на нисходящем парсере. Используется метод рекурсивного спуска.
 
 В арифметическом выражении допускаются десятичные числа (пожалуйста, используйте '.')
-Также допускаются числа с незначащими нулями
+
+Допускаются числа с незначащими нулями
 
 Допускается несколько итерации “ввод / ответ”, для заверешния введите "STOP"
 
 [JetBrains_Calculator](https://github.com/FadeevSergey/ARITHMETIC_EXPRESSION_SOLVER/tree/master/JetBrains_Calculator "Rider project") - Rider project
+
 [JetBrains_Calculator/Calculator](https://github.com/FadeevSergey/ARITHMETIC_EXPRESSION_SOLVER/tree/master/JetBrains_Calculator/Calculator "Код приложения") - Приложение
+
 [JetBrains_Calculator/Calculator.Tests](https://github.com/FadeevSergey/ARITHMETIC_EXPRESSION_SOLVER/tree/master/JetBrains_Calculator/Calculator "Код тестов") - Тесты
 
 ### Пример работы:
