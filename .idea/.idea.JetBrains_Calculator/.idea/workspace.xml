@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cfc6f75-f553-4a9a-8bb1-3ccf3ff2aa1b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TestProject1/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator/ExpressionParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Assert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2C69353E-CE26-4BAD-9691-A566E2BCF284/6/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator.Test/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator.Tests/UnitTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator/ReaderWriter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator/Answer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5AED14D4-8F76-4E4F-80EB-584643057B28/163/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Calculator/Calculator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Calculator.Test/Test.cs" />
+        <option value="$PROJECT_DIR$/Calculator.Test/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/TestProject1/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Calculator.Tests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Calculator/Program.cs" />
+        <option value="$PROJECT_DIR$/Calculator/Answer.cs" />
+        <option value="$PROJECT_DIR$/Calculator/Calculator.cs" />
+        <option value="$PROJECT_DIR$/Calculator/Calc.cs" />
+        <option value="$PROJECT_DIR$/Calculator/ReaderWriter.cs" />
+        <option value="$PROJECT_DIR$/Calculator.Tests/UnitTest.cs" />
+        <option value="$PROJECT_DIR$/Calculator/ExpressionParser.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bSmaiwDYqNmHvuFKeEka4160Fg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Calculator">
+    <configuration name="Calculator" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Calculator/Calculator.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cfc6f75-f553-4a9a-8bb1-3ccf3ff2aa1b" name="Default Changelist" comment="" />
+      <created>1588633934031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588633934031</updated>
+      <workItem from="1588633938964" duration="858000" />
+      <workItem from="1589653647799" duration="25436000" />
+      <workItem from="1589800979273" duration="11743000" />
+      <workItem from="1589821048971" duration="12991000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="133" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1589743802859">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="313" y="133" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1589743802859" />
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589820874325">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1589820874325" />
+    <state width="1398" height="309" key="GridCell.Tab.0.bottom" timestamp="1589834735730">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="309" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589834735730" />
+    <state width="1398" height="130" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1589833912279" />
+    <state width="1398" height="309" key="GridCell.Tab.0.center" timestamp="1589834735729">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="309" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589834735729" />
+    <state width="1398" height="130" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1589833912277" />
+    <state width="1398" height="309" key="GridCell.Tab.0.left" timestamp="1589834735728">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="309" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589834735728" />
+    <state width="1398" height="130" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1589833912276" />
+    <state width="1398" height="309" key="GridCell.Tab.0.right" timestamp="1589834735729">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="309" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589834735729" />
+    <state width="1398" height="130" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1589833912278" />
+    <state x="320" y="189" key="Rider.ProjectTemplateDialog.Size" timestamp="1589813939090">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="189" key="Rider.ProjectTemplateDialog.Size/0.0.1440.900@0.0.1440.900" timestamp="1589813939090" />
+    <state x="320" y="189" key="Rider.ProjectTemplateDialog.Size/0.23.1440.809@0.23.1440.809" timestamp="1588633999123" />
+    <state x="193" y="126" key="SettingsEditor" timestamp="1589805293696">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="193" y="126" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1589805293696" />
+    <state x="343" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589822723970">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="343" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1589822723970" />
+    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1589830668342">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589830668342" />
+  </component>
+</project>

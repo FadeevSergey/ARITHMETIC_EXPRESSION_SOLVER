@@ -1,0 +1,12 @@
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/bin/Debug/netcoreapp3.1/Calculator.deps.json
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/bin/Debug/netcoreapp3.1/Calculator.runtimeconfig.json
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/bin/Debug/netcoreapp3.1/Calculator.runtimeconfig.dev.json
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/bin/Debug/netcoreapp3.1/Calculator.dll
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/bin/Debug/netcoreapp3.1/Calculator.pdb
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.csprojAssemblyReference.cache
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.csproj.CoreCompileInputs.cache
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.AssemblyInfoInputs.cache
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.AssemblyInfo.cs
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.dll
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.pdb
+/Users/Fadeev/RiderProjects/JetBrains_Calculator/Calculator/obj/Debug/netcoreapp3.1/Calculator.genruntimeconfig.cache
