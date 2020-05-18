@@ -38,17 +38,22 @@
 ```sh
 1. (((Hello))
 ```
-![Image alt](https://sun9-50.userapi.com/c858416/v858416119/1eec1e/_LUU2uri70E.jpg)
+![Image alt](https://sun9-72.userapi.com/c858416/v858416119/1eec47/nQXj3ZHs_UU.jpg)
 ```sh
  1.
  2. 1000 + 1 / 8 * ()
 ```
-![Image alt](https://sun9-56.userapi.com/c858416/v858416119/1eec14/6JXXqA2b1YM.jpg)
+![Image alt](https://sun9-59.userapi.com/c858416/v858416119/1eec4f/z-ChwJISwFY.jpg)
 ```sh
  1. 1 + 2 + 3 4
 ```
-![Image alt](https://sun9-68.userapi.com/c856520/v856520119/199056/U6Eo_svHW2A.jpg)
+![Image alt](https://sun9-64.userapi.com/c858416/v858416119/1eec56/d5C_JFIdI50.jpg)
 ```sh
 1. ((((((((((((((((((((((((((((((1 + 2) * 5) / 0) * 188) - 12) - 12) - 13) - 7777))))))))) - 4.5 * (3.4 / (222 + (-222)))) - 1.234))))) + 1.2340.001))))))
 ```
 ![Image alt](https://psv4.userapi.com/c856416/u2000038421/docs/d4/a38ab8a6062e/file.jpg?extra=DRxme0ZtLt7A_MYiZk-Xr3upa7n1TjNDWCxSkwlNmSzuU1uCzuNsk_OEfdfal4yELikBad35t8pklLQU7B9dGi5whm80-IPwy8iLSwix0krZaE4OjtfPG-iDuYKNZZfM4K6keIeXad1IT_s1zy4hdlqdKac)
+```sh
+ 1. )))((
+```
+![Image alt](https://sun9-68.userapi.com/c856520/v856520119/199056/U6Eo_svHW2A.jpg)
+
