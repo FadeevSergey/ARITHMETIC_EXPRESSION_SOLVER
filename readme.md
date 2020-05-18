@@ -55,5 +55,5 @@
 ```sh
  1. )))((
 ```
-![Image alt](https://sun9-68.userapi.com/c856520/v856520119/199056/U6Eo_svHW2A.jpg)
+![Image alt](https://sun9-66.userapi.com/c858416/v858416202/1ef98d/1taLpX6byas.jpg)
 
