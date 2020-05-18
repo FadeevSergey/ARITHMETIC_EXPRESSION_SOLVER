@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace Calculator
 {
-    class Calc
+    static class CalculatorMain
     {
         static void Main(string[] args)
         {

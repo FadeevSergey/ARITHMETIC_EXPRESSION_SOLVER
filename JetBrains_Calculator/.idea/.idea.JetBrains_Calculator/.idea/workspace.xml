@@ -27,10 +27,10 @@
         <option value="$PROJECT_DIR$/Calculator.Tests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/Calculator/Program.cs" />
         <option value="$PROJECT_DIR$/Calculator/Answer.cs" />
-        <option value="$PROJECT_DIR$/Calculator/Calculator.cs" />
         <option value="$PROJECT_DIR$/Calculator/Calc.cs" />
-        <option value="$PROJECT_DIR$/Calculator/ReaderWriter.cs" />
         <option value="$PROJECT_DIR$/Calculator/ExpressionParser.cs" />
+        <option value="$PROJECT_DIR$/Calculator/ReaderWriter.cs" />
+        <option value="$PROJECT_DIR$/Calculator/Calculator.cs" />
         <option value="$PROJECT_DIR$/Calculator.Tests/UnitTest.cs" />
       </list>
     </option>
@@ -86,7 +86,7 @@
       <workItem from="1588633938964" duration="858000" />
       <workItem from="1589653647799" duration="25436000" />
       <workItem from="1589800979273" duration="11743000" />
-      <workItem from="1589821048971" duration="13194000" />
+      <workItem from="1589821048971" duration="13515000" />
     </task>
     <servers />
   </component>
@@ -107,25 +107,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1589820874325" />
-    <state width="1398" height="351" key="GridCell.Tab.0.bottom" timestamp="1589834789171">
+    <state width="1398" height="351" key="GridCell.Tab.0.bottom" timestamp="1589835448336">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="351" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589834789171" />
+    <state width="1398" height="351" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589835448336" />
     <state width="1398" height="130" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1589833912279" />
-    <state width="1398" height="351" key="GridCell.Tab.0.center" timestamp="1589834789170">
+    <state width="1398" height="351" key="GridCell.Tab.0.center" timestamp="1589835448335">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="351" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589834789170" />
+    <state width="1398" height="351" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589835448335" />
     <state width="1398" height="130" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1589833912277" />
-    <state width="1398" height="351" key="GridCell.Tab.0.left" timestamp="1589834789170">
+    <state width="1398" height="351" key="GridCell.Tab.0.left" timestamp="1589835448334">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="351" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589834789170" />
+    <state width="1398" height="351" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589835448334" />
     <state width="1398" height="130" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1589833912276" />
-    <state width="1398" height="351" key="GridCell.Tab.0.right" timestamp="1589834789170">
+    <state width="1398" height="351" key="GridCell.Tab.0.right" timestamp="1589835448335">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="351" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589834789170" />
+    <state width="1398" height="351" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589835448335" />
     <state width="1398" height="130" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1589833912278" />
     <state x="320" y="189" key="Rider.ProjectTemplateDialog.Size" timestamp="1589813939090">
       <screen x="0" y="0" width="1440" height="900" />

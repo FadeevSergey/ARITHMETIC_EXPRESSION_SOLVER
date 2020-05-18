@@ -27,18 +27,18 @@ namespace Calculator
         private static List<KeyValuePair<string, int>> _errors;
         private static int _bracketBalance;
 
-        public static void Start(BlockingCollection<string> mathExpressions, 
-                                 BlockingCollection<Answer> calculationResultsQueue)
+        public static void Start(BlockingCollection<string> mathExpressions,
+            BlockingCollection<Answer> calculationResultsQueue)
         {
             CleanPrivateFields();
             string newMathExpression = mathExpressions.Take();
-            
+
             while (newMathExpression != "STOP")
             {
                 var calculationResult = calculate(newMathExpression);
-                
+
                 calculationResultsQueue.Add(calculationResult);
-                
+
                 newMathExpression = mathExpressions.Take();
             }
 
@@ -55,7 +55,7 @@ namespace Calculator
             {
                 _currentPosition++;
             }
-            
+
             if (_currentPosition == _expression.Length)
             {
                 return _currentToken = Token.End;
@@ -96,6 +96,7 @@ namespace Calculator
                     {
                         AddError("Brackets without expression", _currentPosition);
                     }
+
                     return _currentToken = Token.RightBracket;
                 default:
                     AddError("Unknown character", _currentPosition);
@@ -178,7 +179,7 @@ namespace Calculator
 
                         if (_currentToken == Token.End)
                         {
-                            return left;   
+                            return left;
                         }
 
                         return left;
@@ -196,11 +197,13 @@ namespace Calculator
             {
                 AddError("Empty input expression", 0);
             }
+
             double answer = Expression(false);
             if (_bracketBalance > 0)
             {
                 AddError("Incorrect bracket sequence", _currentPosition);
             }
+
             return new Answer(_expression, answer, _errors);
         }
 

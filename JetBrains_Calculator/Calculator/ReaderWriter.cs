@@ -8,7 +8,6 @@ namespace Calculator
     {
         public static void Reader(BlockingCollection<string> mathExpressionQueue)
         {
-            
             while (true)
             {
                 string newMathExpression = Console.ReadLine();
@@ -23,10 +22,9 @@ namespace Calculator
         public static void Writer(BlockingCollection<Answer> calculationResultsQueue)
         {
             var calculationResult = calculationResultsQueue.Take();
-            
+
             while (calculationResult.mathExpression != "STOP")
             {
-
                 if (calculationResult.errors.Count == 0)
                 {
                     Console.Write("Answer: ");
@@ -42,10 +40,10 @@ namespace Calculator
 
                 calculationResult = calculationResultsQueue.Take();
             }
-            
+
             calculationResultsQueue.Dispose();
         }
-        
+
         private static void printError(string expression, KeyValuePair<string, int> error)
         {
             Console.WriteLine("Error: " + error.Key);

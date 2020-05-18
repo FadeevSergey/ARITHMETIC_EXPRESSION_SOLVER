@@ -12,10 +12,10 @@ namespace Calculator.Tests
             double expectedAnswer = 1;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestOneNegativeNumber()
         {
@@ -23,10 +23,10 @@ namespace Calculator.Tests
             double expectedAnswer = -1;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestOneNumberWithPoint()
         {
@@ -34,10 +34,10 @@ namespace Calculator.Tests
             double expectedAnswer = 1.111;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestOneNegativeNumberWithPoint()
         {
@@ -45,10 +45,10 @@ namespace Calculator.Tests
             double expectedAnswer = -1.111;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestOnePositiveNumberWithPoint()
         {
@@ -56,10 +56,10 @@ namespace Calculator.Tests
             double expectedAnswer = 1.11;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionWithoutMulDiv1()
         {
@@ -67,10 +67,10 @@ namespace Calculator.Tests
             double expectedAnswer = 0;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionWithoutMulDiv2()
         {
@@ -78,7 +78,7 @@ namespace Calculator.Tests
             double expectedAnswer = -111112.2;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
 
@@ -89,10 +89,10 @@ namespace Calculator.Tests
             double expectedAnswer = 0;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionWithWhitespaces()
         {
@@ -100,10 +100,10 @@ namespace Calculator.Tests
             double expectedAnswer = 2;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionWithMulDiv1()
         {
@@ -111,10 +111,10 @@ namespace Calculator.Tests
             double expectedAnswer = 0;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionWithMulDiv2()
         {
@@ -122,10 +122,10 @@ namespace Calculator.Tests
             double expectedAnswer = 30;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionWithInsignificantZeros1()
         {
@@ -133,10 +133,10 @@ namespace Calculator.Tests
             double expectedAnswer = -79;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionWithInsignificantZeros2()
         {
@@ -144,9 +144,10 @@ namespace Calculator.Tests
             double expectedAnswer = 1;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
+
         //
         [Test]
         public void TestMulDivSumSub()
@@ -155,10 +156,10 @@ namespace Calculator.Tests
             double expectedAnswer = 0;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestDecimalNumberDivDecimalNumber()
         {
@@ -166,10 +167,10 @@ namespace Calculator.Tests
             double expectedAnswer = 1.00001;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestBigExpression1()
         {
@@ -178,10 +179,10 @@ namespace Calculator.Tests
             double expectedAnswer = 0.6666667;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestBigExpression2()
         {
@@ -190,10 +191,10 @@ namespace Calculator.Tests
             double expectedAnswer = -6877.624;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionInBrackets1()
         {
@@ -201,10 +202,10 @@ namespace Calculator.Tests
             double expectedAnswer = 13;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionInBrackets2()
         {
@@ -212,10 +213,10 @@ namespace Calculator.Tests
             double expectedAnswer = 13;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionInBrackets3()
         {
@@ -223,10 +224,10 @@ namespace Calculator.Tests
             double expectedAnswer = 0;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionInBrackets4()
         {
@@ -234,10 +235,10 @@ namespace Calculator.Tests
             double expectedAnswer = 13;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionInBrackets5()
         {
@@ -245,10 +246,10 @@ namespace Calculator.Tests
             double expectedAnswer = 13;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestExpressionWithoutWhitespaces()
         {
@@ -256,10 +257,10 @@ namespace Calculator.Tests
             double expectedAnswer = 1;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestMinuses1()
         {
@@ -267,10 +268,10 @@ namespace Calculator.Tests
             double expectedAnswer = 2.111;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestMinuses2()
         {
@@ -278,10 +279,10 @@ namespace Calculator.Tests
             double expectedAnswer = -1;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestBigExpression4()
         {
@@ -289,10 +290,10 @@ namespace Calculator.Tests
             double expectedAnswer = -3;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestBigExpression5()
         {
@@ -300,10 +301,10 @@ namespace Calculator.Tests
             double expectedAnswer = 0;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestBigExpression6()
         {
@@ -312,10 +313,10 @@ namespace Calculator.Tests
             double expectedAnswer = 7.791859;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestPerformance()
         {
@@ -324,13 +325,14 @@ namespace Calculator.Tests
             {
                 mathExpression += " + 1";
             }
+
             double expectedAnswer = 100001;
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count == 0 && Math.Abs(result.answer - expectedAnswer) < 0.1;
-            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count + 
+            Assert.IsTrue(testPass, "Expected 0 errors, but was found " + result.errors.Count +
                                     "\n Answer " + expectedAnswer + ", but was found" + result.answer);
         }
-        
+
         [Test]
         public void TestError1()
         {
@@ -339,7 +341,7 @@ namespace Calculator.Tests
             bool testPass = result.errors.Count > 0;
             Assert.IsTrue(testPass, "Expression content error");
         }
-        
+
         [Test]
         public void TestError2()
         {
@@ -348,7 +350,7 @@ namespace Calculator.Tests
             bool testPass = result.errors.Count > 0;
             Assert.IsTrue(testPass, "Expression content error");
         }
-        
+
         [Test]
         public void TestError3()
         {
@@ -357,7 +359,7 @@ namespace Calculator.Tests
             bool testPass = result.errors.Count > 0;
             Assert.IsTrue(testPass, "Expression content error");
         }
-        
+
         [Test]
         public void TestError4()
         {
@@ -366,7 +368,7 @@ namespace Calculator.Tests
             bool testPass = result.errors.Count > 0;
             Assert.IsTrue(testPass, "Expression content error");
         }
-        
+
         [Test]
         public void TestError5()
         {
@@ -375,25 +377,29 @@ namespace Calculator.Tests
             bool testPass = result.errors.Count > 0;
             Assert.IsTrue(testPass, "Expression content error");
         }
-        
+
         [Test]
         public void TestError6()
         {
-            string mathExpression = "((((((((((((((((((((((((((((((1 + 2) * 5) / 3) * 188) - 12) - 12) - 13) - 7777))))))))) - 4.5 * (3.4 / (2 + 2.222)))) - 1.234))))) + 1.2340001))))))";
+            string mathExpression =
+                "((((((((((((((((((((((((((((((1 + 2) * 5) / 3) * 188) - 12) - 12) - 13) - 7777))))))))) - 4.5 * " +
+                "(3.4 / (2 + 2.222)))) - 1.234))))) + 1.2340001))))))";
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count > 0;
             Assert.IsTrue(testPass, "Expression content error");
         }
-        
+
         [Test]
         public void TestError7()
         {
-            string mathExpression = "((((((((((((((((((((((((((((((1 + 2) * 5) / 3) * 188) - 12) - 12) - 13) - 7777))))))))) - 4.5 * (3.4 / (2 + 2.222 - 2.111 * 2)))) - 1.234))))) + 1.2340001)))))))";
+            string mathExpression =
+                "((((((((((((((((((((((((((((((1 + 2) * 5) / 3) * 188) - 12) - 12) - 13) - 7777))))))))) - 4.5 * " +
+                "(3.4 / (2 + 2.222 - 2.111 * 2)))) - 1.234))))) + 1.2340001)))))))";
             var result = ExpressionParser.calculate(mathExpression);
             bool testPass = result.errors.Count > 0;
             Assert.IsTrue(testPass, "Expression content error");
         }
-        
+
         [Test]
         public void TestError8()
         {
@@ -402,7 +408,7 @@ namespace Calculator.Tests
             bool testPass = result.errors.Count > 0;
             Assert.IsTrue(testPass, "Expression content error");
         }
-        
+
         [Test]
         public void TestError9()
         {
@@ -411,7 +417,7 @@ namespace Calculator.Tests
             bool testPass = result.errors.Count > 0;
             Assert.IsTrue(testPass, "Expression content error");
         }
-        
+
         [Test]
         public void TestError10()
         {
