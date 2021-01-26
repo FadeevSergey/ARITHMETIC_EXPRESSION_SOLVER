@@ -50,7 +50,7 @@
 ```sh
 1. ((((((((((((((((((((((((((((((1 + 2) * 5) / 0) * 188) - 12) - 12) - 13) - 7777))))))))) - 4.5 * (3.4 / (222 + (-222)))) - 1.234))))) + 1.2340.001))))))
 ```
-![Image alt](https://psv4.userapi.com/c856416/u2000038421/docs/d4/a38ab8a6062e/file.jpg?extra=DRxme0ZtLt7A_MYiZk-Xr3upa7n1TjNDWCxSkwlNmSzuU1uCzuNsk_OEfdfal4yELikBad35t8pklLQU7B9dGi5whm80-IPwy8iLSwix0krZaE4OjtfPG-iDuYKNZZfM4K6keIeXad1IT_s1zy4hdlqdKac)
+![Image alt](https://sun9-28.userapi.com/impg/c858416/v858416202/1ef997/vvFJsfDEPqk.jpg?size=2170x510&quality=96&proxy=1&sign=4b0b6a47700e8969bd2cf605c775520a&type=album)
 ```sh
  1. )))((
 ```
